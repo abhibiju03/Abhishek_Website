@@ -1,8 +1,10 @@
 body{
-	padding: 20px;
+	background-image: url('img/background.jpg');
+	padding: 100px;
 	line-height: 40px;
 	font-family: 'Patrick Hand', cursive;
-	font-size: 25px;
+	
+	background-color: #1ff2b7;
 }
 header img{
 	border-radius: 150px;
@@ -20,12 +22,15 @@ header{
 }
 header h1{
 	color: black;
+	size: 200px;
 }
 h1,h2{
 	font-family: 'Amatic SC', cursive;
 	font-style: bold;
-	font-size: 75px;
+	font-size: 80px;
 	color: black;
+	margin-top: 20px;
+	padding: 10px;
 }
 main img{
 	max-width: 100%;
@@ -33,8 +38,8 @@ main img{
 
 main{
 	padding: 50px;
-	background-color: #e03d3d;
-	color: white;
+	color: black;
+	font-size: 25px;
 }
 
 body img{
@@ -57,4 +62,8 @@ footer{
 	background-color: #1ff2b7;
 	padding:20px;
 	margin: 0;
+}
+
+header img .banner{
+	size: 10px;
 }
