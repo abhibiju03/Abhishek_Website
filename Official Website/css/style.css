@@ -33,6 +33,9 @@
 
 .navbar{
 	background: solid white;
+	border-bottom-width: 5px ;
+	border-bottom-style: solid;
+	border-bottom-color: #0affda;
 }
 
 .navbar-toggler{
@@ -43,4 +46,16 @@
 	color: #555;
 	font-weight: 600;
 	font-size: 16px;
+}
+
+/*--------------LANDING PAGE STYLING----------------*/
+.profile{
+	border-radius: 242px ;
+	size: 100px ;
+	margin-top: 75px;
+	padding: 5px;
+	border:5px solid #0affda  ;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
