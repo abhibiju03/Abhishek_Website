@@ -1,4 +1,7 @@
-<!-- official website html code page. will enter the structure and framework and then add in the information required -->
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,6 +13,9 @@
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+	<link href="https://fonts.googleapis.com/css?family=Sen&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js">
 </head>
 <body>
 	<!------------- NAVIGATION BAR ----------->
@@ -24,16 +30,19 @@
 	    <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
 	    </li>
  	    <li class="nav-item">
-        <a class="nav-link" href="#">ABOUT</a>
+        <a class="nav-link" href="#about">ABOUT</a>
 	    </li>
 	    <li class="nav-item">
-	    <a class="nav-link" href="#">PURSUITS</a>
+	    <a class="nav-link" href="#passions">PASSIONS</a>
 	    </li>
 	    <li class="nav-item">
-	    <a class="nav-link" href="#">PASSIONS</a>
+	    <a class="nav-link" href="#pursuits">PURSUITS</a>
 	    </li>
 	    <li class="nav-item">
-        <a class="nav-link" href="#">CONNECT</a>
+	    <a class="nav-link" href="#resume">RESUME</a>
+	    </li>
+	    <li class="nav-item">
+        <a class="nav-link" href="#connect">CONNECT</a>
 	    </li>
 	    </ul>
 	   </div>
@@ -41,52 +50,187 @@
 	</section>
 	<!-- LANDING PAGE WITH PICTURE AND NAME -->
 	<section>
-		<img class="profile" src="img/profile.jpg" style="vertical-align: middle">
-		
+		<img class="profile center" src="img/profile.jpg">
+		<img class="center logo" src="img/logo.png">
+		<center><h1 class="grade">Grade 12 Student</h1></center>
 	</section>
+	<!-- ABOUT SECTION CODE -->
+	<section id="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<h2>ABOUT ME</h2>
+					<div class="about-content">Hey, thank you so much for dropping by my website! I'm glad you're here. This website started out as simple .html and .css files, and I have to say I have fallen in love with the process of creating it.<br><br> 
 
+					Which is also why I hope you'll like it :)<br><br>
 
+					Here's a little bit about me;
+					<br>
+					Having been an NRI since childhood, I have always been in the midst of two contrasting yet blending cultures. Be it the vast, amount of natives, that have made the gulf their home or being able to diffuse our very culture into this loose soil and vice-versa, life has been nothing short of endless surprises. All of these concurrently mold the person I am today, and it has been a wild ride to say the least.<br><br>
 
+					A 17 year-old on the path of achieving fulfilment,experiencing joy, creating impact and above all attaining mental clarity.<br><br>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- NEW DESIGN EXXPERIMENTATION HAPPENING! THIS CODE COMMENTED FOR NOW -->
-<!-- 
-
-
-	<header>
-		<div class="main">
-			<div class="logo">
-				<img src="img/logo.png">
-			<ul> 
-				<nav>
-				
-					<li class="active"><a href="#">HOME</a></li>
-					<li><a href="#">ABOUT</a></li>
-					<li><a href="#">PURSUITS</a></li>
-					<li><a href="#">PASSIONS</a></li>
-					<li><a href="#">CONNECT</a></li>
-				
-				</nav>
-			</ul>
+					I presently study at the JSS Provate School in Dubai, UAE and I hold the position of the President of the MUN Committee there.
+					</div>
+					<div>
+						<button type="button" class="btn btn-primary">
+							Read More
+						</button>
+					</div>
+				</div>
+				<div class="col-md-6">
+						<!-- <img src="img/circle.png" class="circle1">
+					<div class="circle2">
+						<img src="img/circle.png">
+					</div>
+					<div class="circle3">
+						<img src="img/circle.png">
+					</div>
+					<div class="circle4">
+						<img src="img/circle.png">
+					</div>
+					<div class="circle5">
+						<img src="img/circle.png"> -->
+					</div>
+				</div>		
+			</div>
 		</div>
-	</header> -->
-	<main>
-		
-	</main>
+	</section>
+	<!-------------------PASSIONS---------------------->
+	<section id="passions">
+		<div class="container">
+			<h2>PASSIONS</h2>
+			<div class="row passions">
+				<div class="col-md-3 text-center">
+					<div class="icon size">
+						<img src="img/guitar.png">
+					</div>
+					<h1 class="center">Music</h1>
+					<p>I picked up guitar two years ago, and I absolutely love playing it. For me it is more than just a hobby. Check out some of my work over at my Instagram :)</p>
+				</div>
+				<div class="col-md-3 text-center">
+					<div class="icon size">
+						<img src="img/writing.png">
+					</div>
+					<h1 class="center">Writing</h1>
+					<p>TWriting short stories and poems have always been a fundamental part of portraying my opinions and I truly enjoy the freedom writing gives you. To lay in stone immorta ideas and to expland creativity :)</p>
+				</div>
+				<div class="col-md-3 text-center desktop">
+					<div class="icon size">
+						<img src="img/desktop.png" >
+					</div>
+					<h1 class="center">Web Development</h1>
+					<p>This website, as a matter of fact is my first hand-coded website and the process of creating it as a front-end developer has made me realize how useful a utility it truly is. Again granting you sweet freedom, I will continuosly work to improve my skills in this area.</p>
+				</div>
+				<div class="col-md-3 text-center">
+					<div class="icon size">
+						<img src="img/publicspeaking.png">
+					</div>
+					<h1 class="center">Public Speaking</h1>
+					<p>Being an extrovert, I have always been one with the podium. I cherish debating, anchoring, delegating etc. Being the president of the MUN Committee at school, I have learned to enjoy the experiences themselves more than data or stats.</p>
+				</div>
+				<div class="col-md-3 text-center">
+					<div class="icon size">
+						<img src="img/baking.png">
+					</div>
+					<h1 class="center">Baking</h1>
+					<p>I have to bo honest with you, although I love cooking and baking, I am not exceedingly good at either. However it is definitely a passion of mine, and something I am willing to put the time into, to try and master. </p>
+				</div>
+				<div class="col-md-3 text-center">
+					<div class="icon size">
+						<img src="img/socializing.png">
+					</div>
+					<h1 class="center">Socializing</h1>
+					<p>This is an absolute given, as I would probably go crazy without meeting people. Sharing experiences and memories, the simple act of communicating is an eternal gift that keeps on giving.</p>
+				</div>
+				<div class="col-md-3 text-center">
+					<div class="icon size">
+						<img src="img/cubing.png">
+					</div>
+					<h1 class="center">Cubing</h1>
+					<p>It has been about six years since I learned cubing. It is still really fascinating and satisfying how a jumbled mess of colors symbolically yields to form a perfect representation of existence, despite it's jaw-dropping probabilities. </p>
+				</div>
+				<div class="col-md-3 text-center">
+					<div class="icon size">
+						<img src="img/prodcutivity.png">
+					</div>
+					<h1 class="center">Productivity</h1>
+					<p>My quest into the realm of productivity has helped me massively in my life to streamline systems, and build habits that last. Though these systems are not perfecct in any sense of the word. I think it is extremely important that we maximze our possible impact on this world, while we are still here.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- ------------PURSUITS-------------- -->
+	<section id="pursuits">
+		<div class="container center">
+			<div class="row center">
+				<div class="col-md-6">
+				<h1>PURSUITS</h1>
+				<div class="pursuits-content">
+					<p>Hey, glad to know that you’re still here.<br><br>    
+					This section is written pretty freestyle and as to what you can expect in this section, it is really what it sounds like. This section has been labelled pursuits as it involves things I am currently striving to master, and it is quite diverse in its outlook. These consist of specific activities or habits I garnered interest in while listening to various influencers, public figures or prodigies.<br><br>   
+					The first of these is a morning routine. I am a firm believer, not necessarily in the fact that the early bird gets the worm, but rather in the statement that if you conquer your morning, you conquer your day. And hence I have been experimenting. All of our bodies are programmed differently and without experimenting routines there is no real way to determine the activities that comprise a personally tailored one. Join me on this journey if you desire by putting some thought into designing your own! Try it out :)<br><br>  
+					As is evident from the previous paragraph, I am a bit off a productivity nerd. This is not necessarily concerned with high performance in one key area, but rather a wholesome polished quality of life, characterized by the achievement of your most ambitious goals. In no way is my productivity ideal, and the fact is it never can be. But I have always been obsessed with the idea of doing as much as you can in your limited time here. 
+					<br><br>  
+					That is about it for now, but I will update this list as when I pick up new interests<br><br>  
+					Cheers :)
+ 				</p>	
+				</div>
+			</div>
+			</div>	
+		</div>
+	</section>
+	<!----------------------RESUME----------------------->
+	<section id="resume">
+		<div class="container">
+			<h2>RESUME</h2>
+			<p>If you want to view my Resume, download a copy here.</p>
+			<a href="Resume.docx" download="">
+				<button class="button-resume center">Download!</button>
+			</a>
+		</div>
+	</section>
+	<!-------------------------CONNECT-------------------------->
+	<section id="connect">
+		<div class="container">
+			<h1>CONNECT</h1>
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<form class="contact-form">
+						<div class="form-group">
+							<input type="text" class="form-control center" placeholder="Your Name...">
+						</div>
+						<div class="form-group">
+							<input type="number" class="form-control center" placeholder="Phone No.">
+						</div>
+						<div class="form-group">
+							<input type="email" class="form-control center" placeholder="Email ID">
+						</div>
+						<div class="form-group">
+							<textarea class="form-control center" rows="4"  placeholder="Your Message..."></textarea>
+						</div>
+						<center><button type="submit" class="btn btn-primary center">Send Message</button></center>
+					</form>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<!-- -------------------------FOOTER----------------------------- -->
+	<section id="footer">
+		<footer>
+			<div class="footer-container center">
+				<div class="center-col">
+					<img src="img/logo.png" alt="" class="logo-footer center">
+					<div class="social-media">
+						<a href="www.instagram.com"><img src="img/instagram.png" class="instagram center"> </a>
+					</div>
+					<h6 class="rights-text center">Designed and Coded By Abhishek Biju Das.</h6>
+				</div>
+			</div>
+			<div class="bottom-bar"></div>
+		</footer>
+	</section>
 </body>
 </html>
