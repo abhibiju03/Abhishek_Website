@@ -293,6 +293,7 @@ a{
 .button-resume:hover{
 	text-decoration: none;
 	background-color: white;
+	color: #0affda;
 	transition: .5s;
 }
 
