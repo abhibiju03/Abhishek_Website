@@ -80,6 +80,14 @@ a{
 	color: #555;
 }
 
+.baby img{
+	margin-left: 50px;
+	height: 600px;
+	width:auto;
+	border:solid #0affda 5px;
+	padding: 5px 5px 5px;
+}
+
 .vl {
   border-left: 6px solid green;
   height: 500px;
@@ -219,7 +227,7 @@ a{
 }
 
 .passions .col-md-3:hover{
-	background:#03dbfc;
+	background:#00e8e1;
 	cursor: pointer;
 	transition: .7s;
 }
@@ -410,3 +418,8 @@ footer{
 #more{
 	display: none;
 }
+
+.hyperlink{
+	color: #0affda;
+}
+
